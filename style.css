@@ -41,19 +41,20 @@ h1, p {
 
 .logosize {
   height: 30px;
+ background-color: white;
 }
 
 .row {
   display: flex;
   /* background: #FF1D58; */
-  background: #ffa500;
+  background: #34568b;
 }
 
 .container {
   /* max-width: 90%; */
   /* margin: 0 auto; */
   /* background: #FF1D58; */
-  background: #ffa500;
+  background: #34568b;
 }
 
 /* NAVIGATION */
@@ -155,7 +156,8 @@ nav a:hover::after {
   font-weight: 700;
   font-size: 20px;
   padding: 0.3em 1em;
-  background: linear-gradient(90deg, #345aa4 0%, rgba(63, 0, 156,0.90) 164.26%);
+  /* background: linear-gradient(90deg, #345aa4 0%, rgba(63, 0, 156,0.90) 164.26%); */
+  background: #FF6F61;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -235,6 +237,10 @@ nav a:hover::after {
 .p1 {
   overflow: hidden;
   height: 100%;
+}
+
+.box2 {
+  margin-top: 25px;
 }
 
 /* Media */
