@@ -176,7 +176,8 @@ nav a:hover::after {
 /* PACKAGE */
 .packages,
 .tickets,
-.booknow {
+.booknow,
+.aboutUs {
   margin-top: 60px;
   margin-right: 1.5rem;
   margin-left: 1.5rem;
@@ -317,6 +318,46 @@ input:focus-visible {
   outline: 1px solid rgb(255, 111, 0);
   border: 2px solid rgb(255, 111, 0);
 }
+
+/* About Us */
+.newheading {
+  color: rgb(255, 111, 0);
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.newpara {
+  color: #14499e;
+  text-align: center;
+  padding: 5px;
+}
+
+.aboutUsContainer {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit,30rem)
+}
+
+.aboutUsbox {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.social-icons {
+  
+}
+.icon1 {
+  height: 40px;
+  margin-top: 16px;
+  margin-right: 5px;
+}
+
 /* Media */
 
 @media screen and (max-width: 900px){
