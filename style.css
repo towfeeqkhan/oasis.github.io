@@ -207,10 +207,14 @@ nav a:hover::after {
   font-size: 16px;
 }
 
+.book:active {
+  background-color: #eead33f9;
+}
+
 .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit,18rem);
-  gap: 10px;
+  gap: 20px;
   justify-content: center;
   align-items: center;
 }
