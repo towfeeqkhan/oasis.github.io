@@ -337,7 +337,7 @@ input:focus-visible {
   display: grid;
   justify-content: center;
   align-items: center;
-  grid-template-columns: repeat(auto-fit,30rem)
+  grid-template-columns: repeat(auto-fit,25rem)
 }
 
 .aboutUsbox {
