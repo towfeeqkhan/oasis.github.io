@@ -398,7 +398,8 @@ input:focus-visible {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+  /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
   height: 300px;
 }
 
@@ -495,5 +496,8 @@ input:focus-visible {
   }
   .newmar {
     margin-bottom: 20px;
+  }
+  .reviewbox {
+    border-radius: 5px;
   }
 }
