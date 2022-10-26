@@ -189,7 +189,7 @@ nav a:hover::after {
 }
 
 .heading5 {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .heading2,
@@ -425,6 +425,8 @@ input:focus-visible {
   height: 30px;
 }
 
+
+
 /* Media */
 
 @media screen and (max-width: 900px){
@@ -490,5 +492,8 @@ input:focus-visible {
   }
   .textp {
     padding: 3px;
+  }
+  .newmar {
+    margin-bottom: 20px;
   }
 }
