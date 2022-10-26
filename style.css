@@ -177,15 +177,25 @@ nav a:hover::after {
 .packages,
 .tickets,
 .booknow,
-.aboutUs {
+.aboutUs
+.reviews {
   margin-top: 60px;
   margin-right: 1.5rem;
   margin-left: 1.5rem;
 }
 
+.booknow {
+  margin-bottom: 20px;
+}
+
+.heading5 {
+  margin-top: 10px;
+}
+
 .heading2,
 .heading3,
-.heading4 {
+.heading4,
+.heading5 {
   color: black;
   text-align: center;
   font-size: 35px;
@@ -375,6 +385,46 @@ input:focus-visible {
   margin-right: 5px;
 }
 
+/* Review section */
+.review-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,50rem);
+  justify-content: center;
+  align-items: center;
+}
+
+.reviewbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  height: 300px;
+}
+
+
+.user1 {
+  height: 40px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.user-name {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  
+}
+
+.textp {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  padding: 8px;
+}
+
+.userrating {
+  height: 30px;
+}
+
 /* Media */
 
 @media screen and (max-width: 900px){
@@ -434,5 +484,11 @@ input:focus-visible {
   }
   .aboutUsContainer {
     grid-template-columns: repeat(auto-fit,22rem)
+  }
+  .review-container {
+    grid-template-columns: repeat(auto-fit,20rem);
+  }
+  .textp {
+    padding: 3px;
   }
 }
