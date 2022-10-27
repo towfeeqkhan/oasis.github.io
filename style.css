@@ -695,4 +695,7 @@ footer{
   .bottom center {
     padding: 3rem;
   }
+  .logo h1 {
+    font-size: 25px;
+  }
 }
