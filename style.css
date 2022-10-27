@@ -223,16 +223,11 @@ footer {
   font-size: 16px;
 }
 
-/* card paragraphs */
-.highlite {
-  color: black;
-  font-family: 'Poppins', sans-serif;
+.info .pup {
+  margin-bottom: 2px;
 }
 
-.highlite2 {
-  color: black;
-  font-family: 'Poppins', sans-serif;
-}
+
 
 .book {
   color: white;
@@ -467,20 +462,20 @@ footer{
 .main-content{
   display: flex;
 }
-.main-content .box2{
+.main-content .box3{
   flex-basis: 50%;
   padding: 10px 20px;
 }
-.box2 h2{
+.box3 h2{
   font-size: 1.125rem;
   font-weight: 600;
   text-transform: uppercase;
 }
-.box2 .content{
+.box3 .content{
   margin: 20px 0 0 0;
   position: relative;
 }
-.box2 .content:before{
+.box3 .content:before{
   position: absolute;
   content: '';
   top: -10px;
@@ -488,7 +483,7 @@ footer{
   width: 100%;
   background: #1a1a1a;
 }
-.box2 .content:after{
+.box3 .content:after{
   position: absolute;
   content: '';
   height: 2px;
@@ -609,7 +604,7 @@ footer{
     flex-wrap: wrap;
     flex-direction: column;
   }
-  .main-content .box2{
+  .main-content .box3{
     margin: 5px 0;
   }
 }
@@ -696,6 +691,6 @@ footer{
     padding: 3rem;
   }
   .logo h1 {
-    font-size: 25px;
+    font-size: 50px;
   }
 }
