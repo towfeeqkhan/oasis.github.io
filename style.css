@@ -177,9 +177,14 @@ nav a:hover::after {
 .packages,
 .tickets,
 .booknow,
-.aboutUs
 .reviews {
   margin-top: 60px;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.aboutUs {
+  margin-top: 80px;
   margin-right: 1.5rem;
   margin-left: 1.5rem;
 }
